@@ -233,18 +233,18 @@ types using `<font-name>-font` font-family and font-sizes.
 
 
 -- ftd.type heading-hero-mobile:
-line-height.px: 60
-size.px: 52
+line-height.px: 64
+size.px: 48
 letter-spacing.px: 0
 weight: 700
-font-family: $inter-assets.fonts.Inter
+font-family: $inter-assets.fonts.Rubik
 
 -- ftd.type heading-hero-desktop:
-line-height.px: 60
-size.px: 52
+line-height.px: 104
+size.px: 80
 letter-spacing.px: 0
 weight: 700
-font-family: $inter-assets.fonts.Inter
+font-family: $inter-assets.fonts.Rubik
 
 -- ftd.responsive-type heading-hero:
 desktop: $heading-hero-desktop
@@ -255,18 +255,18 @@ mobile: $heading-hero-mobile
 
 
 -- ftd.type heading-large-mobile:
-line-height.px: 48
-size.px: 40
+line-height.px: 54
+size.px: 36
 letter-spacing.px: 0
 weight: 700
-font-family: $inter-assets.fonts.Inter
+font-family: $inter-assets.fonts.Rubik
 
 -- ftd.type heading-large-desktop:
-line-height.px: 48
-size.px: 40
+line-height.px: 65
+size.px: 50
 letter-spacing.px: 0
 weight: 700
-font-family: $inter-assets.fonts.Inter
+font-family: $inter-assets.fonts.Rubik
 
 -- ftd.responsive-type heading-large:
 desktop: $heading-large-desktop
@@ -277,17 +277,17 @@ mobile: $heading-large-mobile
 
 
 -- ftd.type heading-medium-mobile:
-line-height.px: 44
-size.px: 32
+line-height.px: 40
+size.px: 26
 letter-spacing.px: 0
 weight: 600
-font-family: $inter-assets.fonts.Inter
+font-family: $inter-assets.fonts.Rubik
 
 -- ftd.type heading-medium-desktop:
-line-height.px: 44
-size.px: 32
+line-height.px: 57
+size.px: 38
 letter-spacing.px: 0
-font-family: $inter-assets.fonts.Inter
+font-family: $inter-assets.fonts.Rubik
 weight: 600
 
 -- ftd.responsive-type heading-medium:
@@ -299,18 +299,18 @@ mobile: $heading-medium-mobile
 
 
 -- ftd.type heading-small-mobile:
-line-height.px: 36
-size.px: 24
+line-height.px: 29
+size.px: 22
 letter-spacing.px: 0
 weight: 500
-font-family: $inter-assets.fonts.Inter
+font-family: $inter-assets.fonts.Rubik
 
 -- ftd.type heading-small-desktop:
-line-height.px: 36
+line-height.px: 31
 size.px: 24
 letter-spacing.px: 0
 weight: 500
-font-family: $inter-assets.fonts.Inter
+font-family: $inter-assets.fonts.Rubik
 
 -- ftd.responsive-type heading-small:
 desktop: $heading-small-desktop
@@ -322,18 +322,18 @@ mobile: $heading-small-mobile
 
 
 -- ftd.type heading-tiny-mobile:
-line-height.px: 26
+line-height.px: 24
 size.px: 18
 letter-spacing.px: 0
 weight: 500
-font-family: $inter-assets.fonts.Inter
+font-family: $inter-assets.fonts.Rubik
 
 -- ftd.type heading-tiny-desktop:
 line-height.px: 26
-size.px: 18
+size.px: 20
 letter-spacing.px: 0
 weight: 500
-font-family: $inter-assets.fonts.Inter
+font-family: $inter-assets.fonts.Rubik
 
 -- ftd.responsive-type heading-tiny:
 desktop: $heading-tiny-desktop
@@ -344,15 +344,15 @@ mobile: $heading-tiny-mobile
 
 
 -- ftd.type copy-large-mobile:
-line-height.px: 28
-size.px: 20
+line-height.px: 34
+size.px: 22
 letter-spacing.px: 0
 weight: 400
 font-family: $inter-assets.fonts.Inter
 
 -- ftd.type copy-large-desktop:
-line-height.px: 28
-size.px: 20
+line-height.px: 24
+size.px: 16
 letter-spacing.px: 0
 font-family: $inter-assets.fonts.Inter
 weight: 400
@@ -373,8 +373,8 @@ weight: 400
 font-family: $inter-assets.fonts.Inter
 
 -- ftd.type copy-regular-desktop:
-line-height.px: 24
-size.px: 16
+line-height.px: 30
+size.px: 18
 letter-spacing.px: 0
 font-family: $inter-assets.fonts.Inter
 weight: 400
@@ -388,16 +388,16 @@ mobile: $copy-regular-mobile
 
 
 -- ftd.type copy-small-mobile:
-line-height.px: 20
-size.px: 16
+line-height.px: 16
+size.px: 12
 letter-spacing.px: 0
 weight: 400
 font-family: $inter-assets.fonts.Inter
 
 
 -- ftd.type copy-small-desktop:
-line-height.px: 20
-size.px: 16
+line-height.px: 24
+size.px: 14
 letter-spacing.px: 0
 weight: 400
 font-family: $inter-assets.fonts.Inter
@@ -411,15 +411,15 @@ mobile: $copy-small-mobile
 
 
 -- ftd.type fine-print-mobile:
-line-height.px: 18
-size.px: 14
+line-height.px: 16
+size.px: 12
 letter-spacing.px: 0
 weight: 400
 font-family: $inter-assets.fonts.Inter
 
 -- ftd.type fine-print-desktop:
-line-height.px: 18
-size.px: 14
+line-height.px: 16
+size.px: 12
 letter-spacing.px: 0
 weight: 400
 font-family: $inter-assets.fonts.Inter
@@ -433,15 +433,15 @@ mobile: $fine-print-mobile
 
 
 -- ftd.type blockquote-mobile:
-line-height.px: 16
-size.px: 14
+line-height.px: 21
+size.px: 16
 letter-spacing.px: 0
 weight: 400
 font-family: $inter-assets.fonts.Inter
 
 -- ftd.type blockquote-desktop:
-line-height.px: 16
-size.px: 14
+line-height.px: 21
+size.px: 16
 letter-spacing.px: 0
 weight: 400
 font-family: $inter-assets.fonts.Inter
@@ -455,15 +455,15 @@ mobile: $blockquote-mobile
 
 
 -- ftd.type source-code-mobile:
-line-height.px: 16
-size.px: 14
+line-height.px: 21
+size.px: 16
 letter-spacing.px: 0
 weight: 400
 font-family: $inter-assets.fonts.Inter
 
 -- ftd.type source-code-desktop:
-line-height.px: 16
-size.px: 14
+line-height.px: 30
+size.px: 18
 letter-spacing.px: 0
 weight: 400
 font-family: $inter-assets.fonts.Inter
@@ -477,15 +477,15 @@ mobile: $source-code-mobile
 
 
 -- ftd.type label-large-mobile:
-line-height.px: 22
-size.px: 16
+line-height.px: 19
+size.px: 14
 letter-spacing.px: 0
 weight: 400
 font-family: $inter-assets.fonts.Inter
 
 -- ftd.type label-large-desktop:
-line-height.px: 22
-size.px: 16
+line-height.px: 19
+size.px: 14
 letter-spacing.px: 0
 weight: 400
 font-family: $inter-assets.fonts.Inter
@@ -500,14 +500,14 @@ mobile: $label-large-mobile
 
 -- ftd.type label-small-mobile:
 line-height.px: 16
-size.px: 14
+size.px: 12
 letter-spacing.px: 0
 weight: 400
 font-family: $inter-assets.fonts.Inter
 
 -- ftd.type label-small-desktop:
 line-height.px: 16
-size.px: 14
+size.px: 12
 letter-spacing.px: 0
 weight: 400
 font-family: $inter-assets.fonts.Inter
