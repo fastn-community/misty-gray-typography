@@ -548,7 +548,7 @@ font-family: $rubik-assets.fonts.Rubik
 line-height.px: 21
 size.px: 16
 letter-spacing.px: 0
-weight: 700
+weight: 400
 font-family: $rubik-assets.fonts.Rubik
 
 -- ftd.responsive-type button-medium:
