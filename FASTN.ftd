@@ -1,6 +1,6 @@
 -- import: fastn
 
--- fastn.package: fastn-community.github.io/set-3-typography
+-- fastn.package: fastn-community.github.io/misty-gray-typography
 
 -- fastn.dependency: fifthtry.github.io/package-doc
 
@@ -22,4 +22,4 @@
 
 
 # GitHub
-  url: https://github.com/fastn-community/set-3-typography
+  url: https://github.com/fastn-community/misty-gray-typography
