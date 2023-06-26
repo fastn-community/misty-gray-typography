@@ -8,7 +8,7 @@
 
 -- ds.page: 
 show-footer: true
-site-name: `set-3-typography`
+site-name: `misty-gray-typography`
 
 -- ds.page.footer:
 
@@ -16,17 +16,17 @@ site-name: `set-3-typography`
 
 -- end: ds.page.footer
 
--- pd.package: set-3-typography package
-name: fastn-community.github.io/set-3-typography
+-- pd.package: misty-gray-typography package
+name: fastn-community.github.io/misty-gray-typography
 
-This FTD font `set-3-typography` can be used for your ftd web projects. 
+This FTD font `misty-gray-typography` can be used for your ftd web projects. 
 
-You can use this set-3-typography inside the `FTD` project. Follow below
+You can use this misty-gray-typography inside the `FTD` project. Follow below
 instructions to use this font package.
 
--- ds.h3: How to use set-3-typography?
+-- ds.h3: How to use misty-gray-typography?
 
-To use this set-3-typography inside your `ftd` web project, if you are
+To use this misty-gray-typography inside your `ftd` web project, if you are
 using our [doc-site](https://github.com/fifthtry/doc-site) theme then you just
 have to pass types to `ds.page`
 
@@ -36,68 +36,68 @@ making a sandwich.
 -- ds.code: Add this to your FASTN.ftd
 lang: ftd
 
-\-- fastn.dependency: fastn-community.github.io/set-3-typography
+\-- fastn.dependency: fastn-community.github.io/misty-gray-typography
 
 -- ds.markdown:
 
-Now import `set-3-typography` inside `.ftd` file as shown below:
+Now import `misty-gray-typography` inside `.ftd` file as shown below:
 
 -- ds.code:
 lang: ftd
 
-\-- import: fastn-community.github.io/set-3-typography
+\-- import: fastn-community.github.io/misty-gray-typography
 
 
 -- ds.markdown: 
 
-add `set-3-typography` `types` to `ds.page` `types` attribute as shown
+add `misty-gray-typography` `types` to `ds.page` `types` attribute as shown
 below:
 
 -- ds.code:
 lang: ftd
 
 \-- ds.page:
-types: $set-3-typography.types
+types: $misty-gray-typography.types
 
 -- ds.markdown: 
 
-Once you add `types: $set-3-typography.types` inside your `.ftd` file,
-`set-3-typography` will be added as `fastn` default typography to your
+Once you add `types: $misty-gray-typography.types` inside your `.ftd` file,
+`misty-gray-typography` will be added as `fastn` default typography to your
 `ds.page` and to all components you add inside `ds.page`.
 
 If you're not using `doc-site` theme and building your own `fastn` web theme.
-Then, add `set-3-typography` dependency into `FASTN.ftd` file.
+Then, add `misty-gray-typography` dependency into `FASTN.ftd` file.
 
 -- ds.code:
 lang: ftd
 
-\-- fastn.dependency: fastn-community.github.io/set-3-typography
+\-- fastn.dependency: fastn-community.github.io/misty-gray-typography
 
 -- ds.markdown:
 
-Once you add above dependency, then import `set-3-typography` inside your
+Once you add above dependency, then import `misty-gray-typography` inside your
 `.ftd` file:
 
 -- ds.code:
 lang: ftd
 
-\-- import: fastn-community.github.io/set-3-typography
+\-- import: fastn-community.github.io/misty-gray-typography
 
 -- ds.markdown:
 
-Done! `set-3-typography` is now added. Lets define a `page` component:
+Done! `misty-gray-typography` is now added. Lets define a `page` component:
 
 -- ds.code:
 lang: ftd
 download: my-ds.ftd
 
-\-- import: fastn-community.github.io/set-3-typography
+\-- import: fastn-community.github.io/misty-gray-typography
 
 \-- component page:
 caption title:
 body body:
 children wrap:
-ftd.type-data types: $set-3-typography.types
+ftd.type-data types: $misty-gray-typography.types
 
 \-- ftd.column:
 width: fill-container
@@ -136,7 +136,7 @@ In above code snippet we defined `page` component which has `types`, `title`,
 `body` and  `wrap` attributes.
 
 The `types` attribute used to pass a typography to it. In above example we have
-added `$set-3-typography.types` as default `ftd.type-data`. The
+added `$misty-gray-typography.types` as default `ftd.type-data`. The
 `ftd.type-data` contains all `fastn` default `inherited` types.
 
 The `title` attribute will be used for adding `page` titles. 
@@ -207,7 +207,7 @@ downloaded, add previously downloaded `my-ds.ftd` and `types.ftd` inside
 name and run `fastn serve`, load localhost web page on browser.
 
 e.g. `http://127.0.0.1:8001/types` You will see the `page` component using
-`set-3-typography` `types` applied to `inherited` types.
+`misty-gray-typography` `types` applied to `inherited` types.
 
 Done! isn't it simple? Try this and don't forget to jump on our [Discord](https://discord.gg/bucrdvptYd)
 
