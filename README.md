@@ -1,6 +1,6 @@
 # Set 3 Typography: fastn Font Typography Package
 
-This repository contains a fastn font typography package for [Set 3 DS](https://fastn-community.github.io/misty-gray/).
+This repository contains a fastn font typography package for [Misty Gray](https://fastn-community.github.io/misty-gray/).
 
 It uses below fastn fonts packages:
 
