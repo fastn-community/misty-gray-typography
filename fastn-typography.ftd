@@ -1,14 +1,14 @@
 -- import: fifthtry.github.io/package-doc/doc as pd
 -- import: fifthtry.github.io/package-doc/forest-theme as ds
 -- import: fifthtry.github.io/package-doc/footer
--- import: fastn-community.github.io/set-3-typography
+-- import: fastn-community.github.io/misty-gray-typography
 
 
 
 
 -- ds.page: 
 show-footer: true
-site-name: `set-3-typography`
+site-name: `misty-gray-typography`
 
 -- ds.page.footer:
 
@@ -16,14 +16,14 @@ site-name: `set-3-typography`
 
 -- end: ds.page.footer
 
--- pd.package: set-3-typography
-name: fastn-community.github.io/set-3-typography
+-- pd.package: misty-gray-typography
+name: fastn-community.github.io/misty-gray-typography
 
-Below are our default fastn `inherited` font types of set-3-typography.
+Below are our default fastn `inherited` font types of misty-gray-typography.
 
 
 -- display-type:
-types: $set-3-typography.types
+types: $misty-gray-typography.types
 
 
 -- end: ds.page
